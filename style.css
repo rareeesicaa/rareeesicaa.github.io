@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: darkgreen;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg,darkgreen,darkgreen);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-header {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link-header:hover {
+    color: #FFEB3B;
+}
+
+/* Main Section */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: darkgreen;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 20px;
+}
+
+.link-nav {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: darkgreen;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.link-nav:hover {
+    background-color: #388E3C;
+    transform: scale(1.1);
+}
+
+/* Image */
+img {
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 0; /* Mărim puțin padding-ul pentru un aspect mai aerisit */
+    text-align: center;
+    font-size: 14px;
+    position: fixed; /* Poziționare fixă pentru footer */
+    bottom: 0; /* Fixăm footer-ul la baza paginii */
+    width: 100%;
+    z-index: 100; /* Asigură-te că footer-ul este deasupra altor elemente */
+}
+
+.social img {
+    margin: 0 5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.social img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
